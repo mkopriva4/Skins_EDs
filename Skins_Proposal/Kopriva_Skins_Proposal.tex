@@ -1,0 +1,245 @@
+
+
+%Preamble
+
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage[nohead]{geometry}
+\usepackage{setspace}
+\usepackage[bottom, hang, flushmargin]{footmisc}
+\usepackage{indentfirst}
+\usepackage{endnotes}
+\usepackage{graphicx}
+\usepackage{rotating}
+\usepackage{natbib}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\setcounter{MaxMatrixCols}{30}
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\noindent\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\geometry{left=1in,right=1in,top=1.00in,bottom=1.0in}
+
+
+
+\begin{document}
+	
+	\singlespacing
+	
+	
+	
+	\begin{center}
+		
+		{\bf {\Large The Effects of Media Content on Eating Habits: Evidence from the Television Show \textit{Skins} and Eating Disorder Hospitalizations}} 
+		\vskip20pt
+		{\large By Mary Kopriva}
+		
+		
+	\end{center}
+	
+	\vskip20pt
+	
+	\begin{abstract}
+		
+		\onehalfspacing
+		
+		
+		
+		{The proposed study will examine the effects of media content on health, focusing particularly on how the content of television shows can help shape healthy or unhealthy eating habits. Specifically, the proposed research will examine the effects of the television show \textit{Skins} on the prevalence of hospitalizations due to eating disorders in England. Exposure to the program will be determined by exploiting regional variation in ratings data for the television station, E4, which aired the show from 2007-2008. The ratings for the TV station prior to the airing of \textit{Skins} can be used as an IV for exposure to \textit{Skins}. Additionally, posts on the social media platform Twitter and search data from Google can be analyzed to better determine the mechanism by which \textit{Skins} may be affecting eating habits.}
+		
+		
+	\end{abstract}		
+	
+	\pagebreak
+	
+\section{Introduction}	
+	
+	\doublespacing
+
+Approximately 1.25 million individuals in the UK struggle with an eating disorder. Further, the number of hospital admittances diagnosed with an eating disorder has increased roughly 7\% per year over the past decade\footnote{www.beateatingdisorders.org.uk/media-centre/eating-disorder-staistics}. These incidences of eating disorder hospitalizations are highly concentrated among individuals aged 10-19\footnote{Health \& Social Care Information Centre}. In addition to being widespread, particularly among adolescents, eating disorders are both extremely harmful and costly. 
+
+The two most prevalent types of eating disorders are anorexia nervosa (AN) and bulimia nervosa (BN). Anorexia nervosa is associated with severe physical health effects. It has been shown to cause osteoporosis, fertility problems, heart failure, anemia, and problems with the brain and nerves including seizures. Further, anorexia nervosa is often life-threatening from health complications and suicide related to the disorder. Bulimia also has associated health risks including feeling weak, dental problems, dry skin and hair, fits and muscle spasms, heart problems, and osteoporosis and other bone problems\footnote{https://www.nhs.uk/conditions/anorexia/ \& https://www.nhs.uk/conditions/bulimia/}.
+
+Further, there are high costs associated with eating disorders. Hospitalizations for eating disorders last between three to six months on average\footnote{Health \& Social Care Information Centre} totaling roughly \pounds50 millions in NHS costs and an additional \pounds25 to \pounds30 million in private healthcare costs. Using the 2009 ``value of preventing a fatality" figures, premature deaths associated with the disease cost approximately \pounds160 million annually. Also losses in productivity related to eating disorders are conservatively estimated at \pounds230 million in lost GDP annually\footnote{https://www.probonoeconomics.com/sites/default/files/files/BEAT\%20report.pdf}
+
+Popular opinion suggests that media may play a critical role in the increased prevalence of eating disorders. With young people's ever increasing exposure to media, the question of how media content affects these eating disorders is of growing concern. The proposed study will examine how incidences of hospitalizations due to eating disorders are affected by media content. Specifically, the study will explore the effects of the popular British television show \textit{Skins}, which prominently featured a main character suffering from anorexia nervosa, on the number of finished hospital admission episodes with some type of eating disorder as the primary diagnosis. The study will employ regional ratings data as a proxy for an individual's exposure to \textit{Skins}. The identifying variation, therefore, comes from the differences in exposure to the TV show across the different regions of England. 
+
+There is a possibility that those individuals most or least at risk of developing an eating disorder are those most likely to watch a show featuring an anorexic character. To overcome this possible selection bias, I will employ an IV specification that uses television ratings for the TV station E4, where \textit{Skins} was eventually aired, for the time period prior to the premiere of the show in 2007. This IV follows the work of Kearney and Levine (2015). The identifying assumption then is that there are parallel trends in eating disorder hospitalizations prior to the introduction of \textit{Skins} between those regions where E4 was less versus more popular. The most likely violation of this assumption would be that earlier E4 shows have a positive effect on eating disorders. This, however, would work against finding an effect of \textit{Skins} and therefore should not create a problem for identification.
+
+In addition to testing the main hypothesis that \textit{Skins} affected the prevalence of eating disorder hospitalizations in England, I will also consider the possibility that there are heterogeneous affects across the three main categories of eating disorders, namely, anorexia, bulimia and eating disorders not otherwise specified (EDNOS). There is reason to believe that there may be differential effects across the various types of eating disorders. Specifically, anorexia is the eating disorder actually portrayed on \textit{Skins} and is therefore the most likely to be affected by the content of the show. Additionally, policymakers may be interested in how the disorders are differentially effected. Anorexia, while not the most prevalent eating disorder, does have the highest hospitalization and fatality rates. In fact, anorexia nervosa is considered the most deadly psychiatric disorder due to both complications from the disease as well as suicides associated with the disorder\footnote{www.beateatingdisorders.org.uk/media-centre/eating-disorder-staistics}. Therefore, analyzing the effects of the treatment on the separate categories of eating disorders may be of importance to policymakers who are attempting to target anorexia in particular to decrease these extreme impacts of eating disorders.
+
+As a follow up to the primary results, I will also use data from the social media website Twitter along with data on Google searches to both support the main findings as well as provide insight into the mechanisms driving the results. In particular, the online data can be used to relate posts and searches about the show and particularly the character of interest, Effy, to posts and searches about eating disorders. This will serve two purposes. First, it will indicate whether or not there is a more direct link between people who are interested in Effy and eating disorder information. Additionally, I can sort the posts and searches about eating disorders by content, seperating content that is supportive of extreme dieting or disordered eating from content that promotes getting help. This can provide additional evidence for whether the results are driven by increased incidences of eating disorders or simply more individuals seeking treatment.
+
+\section{Literature Review}
+
+A thorough outline of what causes eating disorders requires a review of both the medical and social science literature as a variety of factors are known to contribute to the development of an eating disorder. A broad overview of these common contributing factors will be followed by a sketch of the literature that relates media influence to adolescent behavior with an emphasis on the effects of media influences on eating disorders.
+
+In their review of the genetics of eating disorders, Trace et al. (2013) suggest there is evidence of heritability among family members for all types of eating disorders. Individuals who have first-degree relatives with anorexia nervosa are 11\% more likely to develop the disorder. There is less certainty about the genetic effects of bulimia nervosa with estimates ranging from a 23\% to an 83\% increased likelihood of development among family members. Studies on the genetics of EDNOs are limited with some evidence of heritability of eating disorder symptoms and traits.
+
+The persistent nature of eating disorders is also well-established. Anorexia nervosa developed during adolescence is shown to often persistent into adulthood (Newmark-Sztainer et al. 2011). Ham et al. (2013) find that bulimia nervosa can also be long-lasting suggesting that state dependence may contribute to this persistence. Both studies suggest that targeting the early stages of development particularly in adolescents can be especially effective in reducing the prevalence of eating disorders.
+
+Other contributing factors to the development of eating disorders include peer, family, and media influences. The Polivy and Herman (2002) review of the causes of eating disorders suggests three broad categories of contributors, namely, sociocultural factors, familial influences, and individual risk factors. Sociocultural factors include media and peer influences both of which have been found as contributory to the development of eating disorders. Additionally, the authors suggest that a culture of caloric abundance is often associated with the development of these disorders. Certain family characteristics are associated with the perpetuation and development of eating disorders. Families who praise adolescents for their thinness and self-control in dieting contribute to the persistence of disordered eating while overall familial dysfunction contributes to the development of eating disorders. Further, parents who are overly intrusive and mothers who exhibit jealously, invasion of privacy, and competition are associated with the development of bulimia nervosa in particular. Individual risk factors include abuse, trauma, and teasing. Field et al. (2001) corroborate these findings suggesting that media and parental factors are likely the most influential. Interestingly, they find that paternal interest in a child's thinness/lack of fat is associated with constant dieting in both male and female adolescents. Additionally, Tozzi et al. (2003) find the dysfunctional families, dieting, stress, and pressure are the most cited reasons anorexia patients provide as the subjective causes of their eating disorder development. Finally, more recent research has found an effect of peer influences on eating disorders particularly among sorority members (Basow et al. 2007, Forney et al. 2012, Averett et al. 2015)
+
+Recent studies have built on this foundation, expanding particularly on how the media influences disordered eating. Early literature on media influences suggest a link between magazine exposure and disordered eating. Morry and Staska (2001) find that women who are exposed to beauty magazines and men who are exposed to fitness magazines internalize societal norms and exhibit body dissatisfaction and symptoms of eating disorders. Further, Stice et al. (2001) find that these negative effects can be long-lasting for vulnerable youth. Newer studies have also shown a significant connection between social media use and disordered eating. Branley and Covey (2017) find that exposure to risky behavior on social media sites leads to increased risky behavior in young adults. In particular, young women are found to be particularly vulnerable to content pertaining to eating disorders. Similar to the magazine findings, thin-ideal internalization from social media sites, like Facebook, has been shown to lead to body dissatisfaction and disordered eating (Rodgers et al. 2011). Instagram in particular is associated with body dissatisfaction and a drive for thinness through the channel of appearance-related comparisons (Hendrickse et al. 2017).
+
+The proposed paper contributes to this literature by examining the relationship between specific media content and eating disorders. There have been many recent studies that have found a connection between media content and behavior. Dahl and DellaVigna (2009) find that surrounding the releases of popular violent movies there is a decease in violent crimes. Also, DellaVigna and Kaplan (2007) find an increase in the Republican voting shares associated with exposure to the content of Fox News. Further, exposure to Brazillian novelas has been shown to impact behavior. Chong and La Ferrara (2009) find a increase in divorce rates among those individuals exposed to television stations associated with the most prominent telanovela distributor Globo. Additionally, La Ferrara et al. (2012) find a decrease in fertility rates with the introduction of Globo into a community likely due to the small family sizes depicted on the novelas.
+
+Perhaps more closely related to the contents of the proposed paper are studies that have shown effects of media content on youth behavior. Kearney and Levine (2015) find that the MTV show \textit{16 and Pregnant}, which depicted the lives of pregant teen mothers, had a significant impact on teen childbearing rates in the areas most exposed to the program. Further,  Eisenberg et al. (2017) find that exposure to television shows that depict teasing, particularly weight-related ridicule, have a negative impact on body satisfaction especially among young females.
+
+The proposed study would contribute to this large body of literature by examining the impacts of specific eating disorder-related media content on the development of eating disorders among those exposed. The proposed research will study how the show \textit{Skins}, which explicitly introduces an eating disorder into the plotline, affects the incidences of eating disorder hospitalizations in areas most exposed to the program. Thus, the study will add to the literature by exploring the influence of media on disoreder eating through the channel of media content rather than the thoroughly researched channel of ``thin-ideal" societal norm internalization.
+
+\section{Data}
+
+{\bf Eating Disorder Hospitalizations:} The data on eating disorder hospitalizations comes from the National Health Service (NHS) Hospital Episode Statistics (HES) database. The dataset of interest from HES is the Finished Admission Episode (FAE) data. FAE refers to a period of inpatient care under one consultant and one healthcare provider. FAEs are commonly used to measure the prevalence of eating disorder hospitalizations for national statistics provided by the Health \& Social Care Information Centre and are thus the measure of choice for the proposed study. The proposed study will specifically focus on FAEs in England where monthly data is available dating back to 2003. FAE datasets are available online by month and Strategic Health Authority (SHA) region. Microdata on each individual FAE from 2003 to 2017 is potentially available upon request. The microdata includes many additional variables that can be used as controls and to determine heterogeneous effects, such as sex, age, hospital, and healthcare provider.
+
+%One admission does not represent one patient as an individual can have more than one admission in a year.
+
+The total sample of FAE data will be constrained to only those episodes where the primary diagnosis is classified by the ICD-10 code F50, which is the categorical code for eating disorders. There are subclassifications within the F50 code that break down the eating disorder by type. These subcategories will be employed to determine the potentially differential effects of \textit{Skins} on the three main types of eating disorders. The dataset will be further restricted in the main specification to only include those individuals between the ages of 12-19. Additional age ranges will be considered to check the robustness of the primary results.
+
+{\bf \textit{Skins} Exposure:} Exposure to the television show \textit{Skins} will be measured by the ratings for the show in a particular region as is common in the media exposure literature. In other words, ratings are employed as a proxy for exposure where individuals living in regions with higher ratings for \textit{Skins} are considered those most exposed to the show and vice versa. The ratings data comes from the Broadcasters' Audience Research Board (BARB). BARB data is available at the ITV region by week level. There are thirteen ITV regions in the UK. Two of these regions will be dropped as they pertain exclusively to Scotland and Northern Ireland where the hospitalization FAE data is unavailable. 
+
+The BARB data will also be used to construct the IV. The IV for the proposed paper is the average rating by region for the TV station E4, where \textit{Skins} was originally aired, during the time period before the premiere of \textit{Skins}, following Kearney and Levine (2015). The IV will be based on the ratings for E4 during the 9-10pm time slot on weekdays between January 2006 and December 2007 as this is the exact time slot taken over by \textit{Skins} in January 2007. While \textit{Skins} was specifically aired on Thursday nights, all weeknights will be considered to create a more accurate proxy. Finally, the ratings data will also be restricted in the main specification to only capture ratings for those between the ages of 12-19, but additional ages will be considered in robustness checks.
+
+
+{\bf Google Trends and Twitter:} The final analysis of the proposed study will examine the mechanism driving the main results using Google search and Twitter post data. The prevalence of Google searches will be measured by the Google Trends data. The Google Trends data creates its measure of relative search popularity in a region by dividing the number of searches for a specific topic by the number of total searches in the geographical area and time range specified. The final measure, therefore, is scaled between 0 and 100 based on the topic's search popularity relative to all topics. It is important to note then that the measure should be taken exclusively in relative rather than absolute terms as two regions with very different volumes of searches may have the same relative popularity for a specific search. 
+
+The proposed study will use to Google Trends data on search popularity for topics pertaining to eating disorders. Specifically, the proposed research will examine the popularity of searches for two sets of terms, one set associated with promoting eating disorders and a second set associated with finding help. The terms used to examine the first channel are ``thinspo" and ``pro-ana," both terms associated with pro-anorexia and pro-eating disorder websites and blogs. To explore the second channel, searches for ``eating disorder hotline" and ``eating disorder help" will be considered. In a robustness check, I will also consider similar phrases targeting specific disorders, for example, ``anorexia hotline." In addition, the proposed research will employ Google Trends data on searches for the show \textit{Skins} and the character of interest, Effy, in order to relate eating disorder searches to searches about the show.
+
+The Twitter data will be similarly utilized relating posts about the show to posts promoting eating disorders and posts about seeking treatment. Data regarding post content can be obtained through scraping. The proposed research will employ the same criteria as described above for determining what constitutes a post for one of these categories. The Twitter data will be used in conjunction with the Google search data to provide additional evidence as to the likely mechanism driving the paper's primary results.
+
+\section{Methodology}
+
+{\bf Hospitalizations:}
+
+The main specification follows the identification strategy of Kearney and Levine (2015). The basic OLS equation takes the following form:
+\begin{eqnarray*}	
+	ED_{rt} = \alpha + \beta Skins_{r} \times Post_{t} + U_{rt} + FB_{rt} + \gamma_{rs} + \delta_t + \varepsilon_{rt}	
+\end{eqnarray*}
+
+The independent variable will be the number of FAEs in ITV region \textit{r} in month \textit{t}. $Skins_{r}$ is the variable for the average ratings for \textit{Skins} in region \textit{r} during the airing of the show from 2007-2008. This variable is interacted with a dummy variable, $Post_t$. $Post_t$ takes on a value of one if the month \textit{t} is after the show \textit{Skins} has premiered and zero if the show is not yet on the air at time \textit{t}. Thus, the term $Skins_{r} \times Post_{t}$ will take on the value of the average ratings in region \textit{r} if the month \textit{t} is after January 2007 and zero otherwise.
+
+A number of control variables are also included. $U_{rt}$ is a measure for the monthly unemployment rate by region. This control is of particular importance considering that the end of the study time period overlaps with the beginning of the recession. Also a measure of Facebook users, $FB_{rt}$, is included as a proxy for social media prevalence in a community. Facebook is the platform of choice as the site was one of the most popular forms of social media at the time. This control is included because of the significant work that ties social media use to eating disorders. Finally, fixed effects are included to control for the region by season as well as the year. 
+
+The basic OLS specification, however, does not address the possible selection into treatment of those more or less prone to developing eating disorders. Therefore, the preferred specification is that of 2SLS. For the 2SLS specification, the first stage takes the following form:
+\begin{eqnarray*}	
+	Skins_{r} \times Post_t = \alpha + \beta E4Pre_{r} \times Post_{t} + U_{rt} + FB_{rt} + \gamma_{rs} + \delta_t + \varepsilon_{rt}	
+\end{eqnarray*}
+
+This implies a second stage specification of:
+\begin{eqnarray*}	
+	ED_{rt} = \alpha + \beta \widehat{Skins}_{r} \times Post_{t} + U_{rt} + FB_{rt} + \gamma_{rs} + \delta_t + \varepsilon_{rt}	
+\end{eqnarray*}
+
+In the IV specification, $E4Pre_{r}$ refers to the average rating in region \textit{r} for the channel E4 during the weekday timeslot for \textit{Skins}  before \textit{Skins} premiered. The term $Post_t$ is again a dummy variable for whether or not \textit{Skins} had premiered yet in period \textit{t}. Thus, $E4Pre_{r} \times Post_{t}$ takes on the value of the average rating for E4 on weeknights between 9-10PM in region \textit{r} if the month \textit{t} is after January 2007. $E4Pre_{r} \times Post_{t}$ is equal to zero otherwise.
+
+From the first stage regression, a predicted value of the rating for \textit{Skins} in region \textit{r} can be obtained and is subsequently included in the second stage to determine the effect of the show \textit{Skins} on eating disorder FAEs. The term $\widehat{Skins}_{r}$ in the above specification is the variable for the predicted average rating for \textit{Skins} in region \textit{r}. $ED_{rt}$ is again the number of eating disorder hospitalizations in region \textit{r} in month \textit{t}. The coefficient $\beta$, therefore, is the coefficient of interest in the preferred specification. The control variables remain the same throughout.
+
+{\bf Google and Twitter:}
+
+The main specification for the Google and Twitter analysis is similar to the primary specification above. The main estimating equation takes the following form:
+\begin{eqnarray*}
+	EDSearch_{rt} = \alpha + \beta SkinsSearch_{rt} + U_{rt} + FB_{rt} + \gamma_{rs} + \delta_t + \varepsilon_{rt}
+\end{eqnarray*}
+
+Using the Google data, $EDSearch_{rt}$ is the Google Trends index in region \textit{r} in week \textit{t} for the four main searches regarding eating disorders as specified in section 3 of the proposal. Using the Twitter data, $EDSearch_{rt}$ refers to the number of posts about eating disorders in region \textit{r} on day \textit{t}. The criteria for what determines a post about eating disorders is again specified in section 3. The independent variable of interest in this specification is $SkinsSearch_{rt}$. $SkinsSearch_{rt}$ measures the number of searches for or posts about the show \textit{Skins} or the character \textit{Effy} by week/day and region. Again controls for unemployment and social media use as well as regional by season and yearly fixed effects are included.
+
+From the hospital admissions data alone, it is impossible to determine if the shows effects are being driven by increased incidences and severity of eating disorders or by increased awareness and treatment seeking behavior. To the extend that hospitalization implies a fairly severe case, the second channel may be less likely, as individuals seeking treatment are likely to consult with parents or a general physician rather than go to a hospital. This second channel, however, still cannot be ruled out. As described in section 3, the searches/posts about eating disorders can be seperated into two groups, namely, those promoting eating disorders and those inquiring about treatment. Thus, the effects of \textit{Skins} on these two broad categories of searches and posts about eating disorders will suggest which channel may be driving the paper's main findings.  Therefore, the Google and Twitter data can provide some insight into which of these possible mechanisms is driving the primary results.
+
+\section{Conclusion}
+
+The proposed study will examine the effects of the television show \textit{Skins} on hospitalizations due to eating disorders in England. While various forms of media have been shown to have a significant effect on disordered eating and body dissatisfaction, the question of how popular television directly depicting these disorders effects their development is as of yet unexplored. The proposed study will provide insight into how one particular show with a prominent plotline about anorexia effected the number of hospital admissions with an eating disorder diagnosis. Further, by employing the Google and Twitter data, the proposed research will provide evidence into what mechanism is likely driving these results.
+
+Policymakers can utilize this information to try and curb the continually rising number of eating disorder hospitalizations. Combating this increasing problem is particularly important due to the extremely harmful, persistent, and costly nature of eating disorders. Further, because eating disorders disporportionately affect young women, those policymakers aiming to protect this vulnerable population will likely benefit most from the proposed study.
+
+Though the proposed paper will begin the process of determining how eating disorders are effected by media content, there is still further work necessary to determine the larger scope of the problem. Firstly, the proposed study specifically explores the most severe cases of eating disorders as measured by hositalizations. Further research is needed to determine the milder effects on those who develop eating disorders but don't immediately suffer severe symptoms that constitute the need for hositalizing the individual. Additionally, the proposed study will examine the short run effects, but there may be long-lasting effects due to the show's long-term popularity and the persistent nature of eating disorders. Further, the show was eventually aired in over twenty countries with the US even creating a remake of the original show. Thus, additional research examining the lasting and widespread effects of the show would provide a more accurate picture of the full extent of the show's effects on eating disorders.
+
+\pagebreak
+
+\begin{thebibliography}{9}
+	
+	\singlespacing
+
+\item 
+Averett, S.; S. Terrizzi and Y. Wang. 2017. "The Effect of Sorority Membership on Eating Disorders, Body Weight, and Disordered-Eating Behaviors." Health Economics, 26(7), 875-91.
+
+\item 
+Basow, Susan A.; Kelly A. Foran and Jamila Bookwala. 2007. "Body Objectification, Social Pressure, and Disordered Eating Behavior in College Women: The Role of Sorority Membership." Psychology of Women Quarterly, 31(4), 394-400.
+
+\item 
+Branley, D. B. and J. Covey. 2017. "Is Exposure to Online Content Depicting Risky Behavior Related to Viewers' Own Risky Behavior Offline?" Computers in Human Behavior, 75, 283-87.
+
+\item 
+Chong, Alberto and Eliana La Ferrara. 2009. "Television and Divorce: Evidence from Brazilian Novelas." Journal of the European Economic Association, 7(2-3), 458-68.
+
+\item 
+Dahl, Gordon and Stefano DellaVigna. 2009. "Does Movie Violence Increase Violent Crime?" Quarterly Journal of Economics, 124(2), 677-734.
+
+\item 
+DellaVigna, Stefano and Ethan Kaplan. 2007. "The Fox News Effect: Media Bias and Voting." Quarterly Journal of Economics, 122(3), 1187-234.
+
+\item 
+Eisenberg, M. E.; E. Ward; J. A. Linde; S. E. Gollust and D. Neumark-Sztainer. 2017. "Exposure to Teasing on Popular Television Shows and Associations with Adolescent Body Satisfaction." Journal of Psychosomatic Research, 103, 15-21.
+
+\item 
+Field, A. E.; C. A. Camargo; C. B. Taylor; C. S. Berkey; S. B. Roberts and G. A. Colditz. 2001. "Peer, Parent, and Media Influences on the Development of Weight Concerns and Frequent Dieting among Preadolescent and Adolescent Girls and Boys." Pediatrics, 107(1), 54-60.
+
+\item 
+Forney, K. Jean; Lauren A. Holland and Pamela K. Keel. 2012. "Influence of Peer Context on the Relationship between Body Dissatisfaction and Eating Pathology in Women and Men." International Journal of Eating Disorders, 45(8), 982-89.
+
+\item 
+Ham, J. C.; D. Iorio and M. Sovinsky. 2013. "Caught in the Bulimic Trap? Persistence and State Dependence of Bulimia among Young Women." Journal of Human Resources, 48(3), 736-67.
+
+\item 
+Hendrickse, J.; L. M. Arpan; R. B. Clayton and J. L. Ridgway. 2017. "Instagram and College Women's Body Image: Investigating the Roles of Appearance-Related Comparisons and Intrasexual Competition." Computers in Human Behavior, 74, 92-100.
+
+\item 
+Kearney, M. S. and P. B. Levine. 2015. "Media Influences on Social Outcomes: The Impact of Mtv's 16 and Pregnant on Teen Childbearing." American Economic Review, 105(12), 3597-632.
+
+\item 
+La Ferrara, Eliana; Alberto Chong and Suzanne Duryea. 2012. "Soap Operas and Fertility: Evidence from Brazil." American Economic Journal-Applied Economics, 4(4), 1-31.
+
+\item 
+Morry, M. M. and S. L. Staska. 2001. "Magazine Exposure: Internalization, Self-Objectification, Eating Attitudes, and Body Satisfaction in Male and Female University Students." Canadian Journal of Behavioural Science-Revue Canadienne Des Sciences Du Comportement, 33(4), 269-79.
+
+\item 
+Neumark-Sztainer, Dianne; Melanie Wall; Nicole I. Larson; Marla E. Eisenberg and Katie Loth. 2011. "Dieting and Disordered Eating Behaviors from Adolescence to Young Adulthood: Findings from a 10-Year Longitudinal Study." Journal of the American Dietetic Association, 111(7), 1004-11.
+
+\item 
+Polivy, J. and C. P. Herman. 2002. "Causes of Eating Disorders." Annual Review of Psychology, 53, 187-213.
+
+\item
+Rodgers, R.; H. Chabrol and S. J. Paxton. 2011. "An Exploration of the Tripartite Influence Model of Body Dissatisfaction and Disordered Eating among Australian and French College Women." Body Image, 8(3), 208-15.
+
+\item 
+Stice, E.; D. Spangler and W. S. Agras. 2001. "Exposure to Media-Portrayed Thin-Ideal Images Adversely Affects Vulnerable Girls: A Longitudinal Experiment." Journal of Social and Clinical Psychology, 20(3), 270-88.
+
+\item 
+Tozzi, F.; P. F. Sullivan; J. L. Fear; J. McKenzie and C. M. Bulik. 2003. "Causes and Recovery in Anorexia Nervosa: The Patient's Perspective." International Journal of Eating Disorders, 33(2), 143-54.
+
+\item 
+Trace, S. E.; J. H. Baker; E. Penas-Lledo and C. M. Bulik. 2013. "The Genetics of Eating Disorders," S. NolenHoeksema, Annual Review of Clinical Psychology, Vol 9. 589-620.
+	
+\end{thebibliography}
+
+\end{document}
